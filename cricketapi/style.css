@@ -1,0 +1,54 @@
+body {
+    padding: 20px 0;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.card {
+    max-width: 800px;
+    width: 70%;
+    height: 20em;
+    transition:transform 0.5s;
+    background-color: rgba(198, 169, 169, 0.856)
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: radial-gradient(circle, rgba(251, 204, 63, 1) 0%, rgba(252, 118, 70, 1) 100%);
+    color: black;
+    text-decoration: solid;
+}
+
+.card-body:hover {
+    background: radial-gradient(circle, rgba(24, 7, 1, 1) 0%, rgba(221, 13, 63, 1) 100%);
+}
+
+.card-body {
+    background-color: rgb(42, 12, 12);
+}
+
+.team-logo {
+    width: 20%;
+    min-width: 50px;
+    border-radius: 100%;
+}
+
+.text-danger {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.text-danger p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(16, 15, 15);
+}
+
+.score {
+    text-align: center;
+}
+
+.text2 {
+    margin-top: -1rem;
+}
