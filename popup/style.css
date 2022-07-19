@@ -1,0 +1,32 @@
+.clicks{
+    cursor:pointer;
+}
+#box {
+    background-color: rgb(53, 170, 158);
+    height: 350px;
+    width: 700px;
+   display:none;
+}
+
+body {
+background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+
+h3 {
+    margin-left: 15rem;
+}
+
+#cross {
+    cursor: pointer;
+    color: red;
+}
+
+.head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+#box.show {
+    visibility: visible;
+}
