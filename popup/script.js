@@ -89,5 +89,4 @@ $('.submission').on('click',function(){
         return false;
     }
 });
-
 });
