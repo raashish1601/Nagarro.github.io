@@ -66,7 +66,7 @@ $('#cross').on('click',function(){
     
         if(emailregex.test(email)){
             $('#emailvalidation').hide();  
-            email_error=true;   
+            email_error =true;   
         }
         else{
             $('#emailvalidation').show();
